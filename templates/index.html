@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service | MyOnlinemeals.com </title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <link rel="stylesheet" media="screen and (max-width:1170px)"href="{{url_for('static',filename='phone.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="{{url_for('static',filename='logo1.jpg')}}  " alt="MyOnlinemeals.com" height="700px">
+        </div>
+        <ul>
+            <li class="item"><a href="/">Home</a></li>
+            <li class="item"><a href="#" target="=_blank">Services</a></li>
+            <li class="item"><a href="aboutus" target="_blank">About us</a></li>
+            <li class="item"><a href="/contact" target="=_blank">contact Us</a></li>
+            <li class="item"><a href="menu" target="=_blank">Menu</a></li>
+            
+            
+    
+
+        </ul>
+
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlinemeals</h1>
+        <p>We Promise you that you will never had a bad meal.<br>Rain Or Shine, It's Time to Dine!!</p>
+
+        <button class="btn">Order Now</button>
+        <hr>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center"> Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="{{url_for('static',filename='scooter2.jpg')}}" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="text-center"><b>Fast Delivery with Quality food.</b></p>
+
+            </div>
+            <div class="box">
+                <img src="{{url_for('static',filename='dine.jpg')}}" alt="">
+                <h2 class="h-secondary center">Dine In</h2>
+                <p class="text-center"><b>Enjoy your food with taste and peaceful music.</b></p>
+
+
+            </div>
+            <div class="box">
+                <img src="{{url_for('static',filename='hall2.jpg')}}" alt="">
+                <h2 class="h-secondary center">Party Hall Booking</h2>
+                <p class="text-center"><b>Enjoy your party with luxurious hall with all facilities.</b></p>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <hr>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="{{url_for('static',filename='apple.png')}}" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="{{url_for('static',filename='microsoft.png')}}" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="{{url_for('static',filename='hp.png')}}" alt="Our Client">
+            </div>
+
+
+        </div>
+    </section>
+    
+    <section id="owners">
+        <div class="owner" >
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyOnlinemeals.com. All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
