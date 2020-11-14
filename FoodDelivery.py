@@ -22,6 +22,8 @@ class Contacts(db.Model):
 
 
 @app.route('/')
+# defining home page
+
 def Home():
     return render_template('index.html')
 
