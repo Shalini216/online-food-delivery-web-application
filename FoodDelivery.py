@@ -4,13 +4,11 @@ from datetime import datetime
 
 
 app=Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@localhost/db_name'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/online food delivery' # SQLALCHEMY_DATABASE_URI for mysql.. username will be root
-#  beacause xampp is installed without any password
-db = SQLAlchemy(app) # initailization of db variable
 
-# Creating class to define database table
-'''Sno	Name	Email	Phone_no	Msg	date'''
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/online food delivery' 
+
+db = SQLAlchemy(app)
+
 class Contacts(db.Model):
     Sno = db.Column(db.Integer, primary_key=True)
     Name = db.Column(db.String(80),nullable=False)
@@ -22,7 +20,7 @@ class Contacts(db.Model):
 
 
 @app.route('/')
-# defining home page
+
 
 def Home():
     return render_template('index.html')

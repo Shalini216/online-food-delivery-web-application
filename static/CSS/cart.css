@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+
+}
+.cartContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #ddd;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.heading{
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+    border-bottom: 1px solid black;
+   
+}
+
+
+.totalPrice{
+position: absolute;
+bottom: 5%;
+right: 10%;
+font-weight: bold;
+}
+.totalPrice .col{
+    width: 200px;
+    height: 2px;
+   background-color: black;
+}
+.Total{
+    display: inline;
+}
+
+
+.cartImage, .cartTitle, .cartPrice, .removeBtn{
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin:20px;
+    margin-left: 25px;
+    
+}
+.cartImage img{
+   max-width: 100px;
+   border:1px solid #ddd;
+   border-radius: 50%;
+   padding: 3px;
+   transition: .5s;
+}
+
+.removeBtn{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    right: 10%;
+}
+.placeOrder{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+}

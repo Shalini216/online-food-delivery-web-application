@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f1a8a-aa50-4e56-8d1a-157a9d7b3c48" name="Default Changelist" comment="" />
+    <list default="true" id="8d7f1a8a-aa50-4e56-8d1a-157a9d7b3c48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodDelivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/FoodDelivery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/contact1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cover2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/download (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/download (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/food1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/food2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/food3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hall2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/menu2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/menu3.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/menu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/menu4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/microsoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/phone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/phone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/style.css" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +44,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jjC9qNi4ELirU7E8QRUMfSDqYt" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python course exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Online Ecommerce Website" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RunDashboard">
@@ -72,5 +104,18 @@
       <updated>1604307964211</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,5 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu-Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/menu.css')}}">
+   
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/cart.css')}}">
+</head>
+<body>
+<div class="wrapper">
+    <div class="title">
+        <h4><span>fresh food for good health</span>our menu</h4>
+    </div>
+    <div class="menu">
+        <div class="single_menu">
+            <img src="{{url_for('static',filename='Images/img1.jpg')}}" alt="">
+            <div class="productTitle">
+                <h4>Idli with Sambhar </h4>   
+            </div>
+            <div class="price">
+                <h4>Rs.200 </h4>
+            </div>
+            <button class="add_cart">Add To Cart</button>
+        </div>
 
-<img src="{{url_for('static',filename='menu3.jpg')}}" alt="Menu Card" height="500px">
-<img src="{{url_for('static',filename='menu.jpg')}}" alt="Menu Card" height="500px">
-<img src="{{url_for('static',filename='menu2.webp')}}" alt="Menu Card" height="500px">
-<img src="{{url_for('static',filename='menu4.webp')}}" alt="Menu Card" height="500px">
+        <div class="single_menu">
+            <img src="{{url_for('static',filename='Images/img2.jpg')}}" alt="">
+            <div class="productTitle">
+                <h4>Paneer tikka Sandwich</h4>
+            </div>
+            <div class="price">
+                <h4>Rs.100 </h4>
+            </div>
+            <button class="add_cart">Add To Cart</button>
+        </div>
+
+        <div class="single_menu">
+            <img src="{{url_for('static',filename='Images/img3.jpg')}}" alt="">
+            <div class="productTitle">
+                <h4>Indian vegetarian biryani</h4>  
+            </div>
+            <div class="price">
+                <h4>Rs.200 </h4>
+            </div>
+            <button class="add_cart">Add To Cart</button>
+        </div>
+
+        <div class="single_menu">
+            <img src="{{url_for('static',filename='Images/img4.jpg')}}" alt="">
+            <div class="productTitle">
+                <h4>Indian Veg Thali</h4>    
+            </div>
+            <div class="price">
+                <h4>Rs.300 </h4>
+            </div>
+            <button class="add_cart">Add To Cart</button>
+        </div>
+
+        <div class="single_menu">
+            <img src="{{url_for('static',filename='Images/img5.jpg')}}" alt="">
+            <div class="productTitle">
+                <h4>Vegetable Stir-Fried Noodles</h4>
+            </div>
+            <div class="price">
+                <h4>Rs.120 </h4>
+            </div>
+            <button class="add_cart">Add To Cart</button>
+        </div>
+
+        <div class="single_menu">
+            <img src="{{url_for('static',filename='Images/img6.jpg')}}" alt="">
+            <div class="productTitle">
+                <h4>Indian spicy chickpeas curry with rice and naan bread</h4>   
+            </div>
+            <div class="price">
+                <h4>Rs.150 </h4>
+            </div>
+            <button class="add_cart">Add To Cart</button>
+        </div>
+
+    </div>
+</div>
+
+    <!-- Cart Section-->
+    <h1>Cart</h1>
+    <div class="cartContainer">
+        <div class="row">
+            <div class="heading">Product</div>
+            <div class="heading">Title</div>
+            <div class="heading">Price</div>
+            <div class="heading">Action</div>
+        </div>
+       
+        <div class="totalPrice">
+         <div class="col"></div>
+         <div class="col"></div>
+         <div class="Total">Total Rs.</div>
+         <div class="Total cartTotalPrice">0</div>
+         <button class="placeOrder">Place Order</button>
+        </div>
+    </div> -->
+<script src="{{url_for('static',filename='JS/index.js')}}"></script>
+</body>
+</html>
